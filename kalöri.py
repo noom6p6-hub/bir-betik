@@ -27,11 +27,8 @@ if i == 0:
 elif i > 0 and i < 1000:
     print("bu kalöri çok az ")#kullanıcıya kalöri miktarının az olduğunu söyler
     start()
-elif i >= 1000 and i <= 2000:
-    print("bu kalöri çocuklar için normal ")#kullanıcıya kalöri miktarının çocuklar için normal olduğunu söyler
-    killprocess()
-elif i >= 2000 and i <=3000:
-    print("bu kalöri yetişkinler için normal ")#kullanıcıya kalöri miktarının yetişkinler için normal olduğunu söyler
+elif i >= 1300 and i <= 1600:
+    print("bu kalöri senin için normal ")#kullanıcıya kalöri miktarının normal olduğunu söyler
     killprocess()
 elif i > 3000:
     print("bu kalöri yetişkinler için çok yüksek ")#kullanıcıya kalöri miktarının yetişkinler için çok yüksek olduğunu söyler
